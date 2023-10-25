@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+    <link rel="stylesheet"
+    href="unitconverter.css" />
+</head>
+<body>
+    
+    <h1>Multiple Unit Converter</h1>
+
+    <select id="conversion-list">
+        <option>select conversion type </option>
+        <option value="1">celsius to farenheit</option>
+        <option value="2">farenheit to celsius</option>
+        <option value="3">km to m</option>
+        <option value="4">m to km</option>
+        <option value="5">celsius to kelvin</option>
+        <option value="6">kelvin to celsius</option>
+    </select><br/>
+
+    <input type="number" id="input" placeholder="type your input here" /> <br /><br />
+
+    <div id="output"></div>
+
+    <script src="./unitconverter.js">
+    </script>
+</body>
+</html>
